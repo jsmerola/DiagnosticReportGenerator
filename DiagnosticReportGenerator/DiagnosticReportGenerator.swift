@@ -40,7 +40,7 @@ public class DiagnosticReportGenerator: NSObject {
     */
     public func generateWithIdentifier(identifier: String?, extraInfo: [String: AnyObject]?, includeDefaults: Bool = true) throws -> String {
         
-        guard let path = NSBundle.mainBundle().pathForResource("DiagnosticReportTemplate", ofType: "html") else {
+        guard let path = NSBundle(forClass: self.dynamicType).pathForResource("DiagnosticReportTemplate", ofType: "html") else {
             throw ReportError.TemplateNotFound
         }
         
