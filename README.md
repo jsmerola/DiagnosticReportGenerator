@@ -1,4 +1,6 @@
-# DiagnosticReportGenerator
+# This library is deprecated.
+
+# ~~DiagnosticReportGenerator~~
 
 [![Version](https://img.shields.io/cocoapods/v/DiagnosticReportGenerator.svg?style=flat)](http://cocoapods.org/pods/DiagnosticReportGenerator)
 [![License](https://img.shields.io/cocoapods/l/DiagnosticReportGenerator.svg?style=flat)](http://cocoapods.org/pods/DiagnosticReportGenerator)
